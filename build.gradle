@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'simple'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+
+    compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+}
